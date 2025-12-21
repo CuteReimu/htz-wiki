@@ -38,6 +38,7 @@ export default hopeTheme({
   // 页脚
   displayFooter: false,
   pageInfo: false,
+  breadcrumb: false,
 
   // 多语言配置
   metaLocales: {
@@ -52,9 +53,6 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
-    icon: {
-      assets: "fontawesome",
-    },
     slimsearch: {
       indexContent: true,
       locales: {
