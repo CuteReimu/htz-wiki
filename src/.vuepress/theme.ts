@@ -46,6 +46,9 @@ export default hopeTheme({
   },
 
   markdown: {
+    math: {
+      type: "katex",
+    },
     linksCheck: {
       build: "error",
     },
