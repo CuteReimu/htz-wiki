@@ -19,6 +19,8 @@ export default hopeTheme({
 
   repo: "CuteReimu/htz-wiki",
 
+  docsBranch: "master",
+
   docsDir: "src",
 
   fullscreen: true,
