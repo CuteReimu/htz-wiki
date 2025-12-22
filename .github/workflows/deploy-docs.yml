@@ -40,7 +40,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./docs/.vuepress/dist
+          source: ./src/.vuepress/dist
         if: ${{ github.event_name == 'push' || github.event_name == 'workflow_dispatch' }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
