@@ -51,6 +51,7 @@ export default hopeTheme({
     math: {
       type: "katex",
     },
+    mermaid: true,
     linksCheck: {
       build: "error",
     },
